@@ -1,0 +1,24 @@
+# Gradle 构建产物
+build/
+
+# Gradle 本地缓存
+.gradle/
+
+# 运行目录（存档/配置，勿提交）
+run/
+
+# IDE
+.idea/
+*.iml
+eclipse/
+bin/
+
+# 第三方本地依赖（上游模组 jar，禁止分发）
+libs/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log

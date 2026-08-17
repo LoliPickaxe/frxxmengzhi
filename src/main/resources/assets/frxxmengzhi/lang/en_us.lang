@@ -1,0 +1,207 @@
+# Creative Tab
+itemGroup.frxxmengzhi_elixir=Attribute Elixirs
+
+# ==================== Permanent Elixirs (15) ====================
+
+# Qi Refining (1)
+item.frxxmengzhi.perm_shield_max_lianqi=Qi Refining Shield Max Elixir
+item.frxxmengzhi.perm_shield_max_lianqi.name=Qi Refining Shield Max Elixir
+item.frxxmengzhi.perm_shield_regen_lianqi=Qi Refining Shield Regen Elixir
+item.frxxmengzhi.perm_shield_regen_lianqi.name=Qi Refining Shield Regen Elixir
+item.frxxmengzhi.perm_shield_absorption_lianqi=Qi Refining Damage Absorption Elixir
+item.frxxmengzhi.perm_shield_absorption_lianqi.name=Qi Refining Damage Absorption Elixir
+
+# Foundation Establishment (2)
+item.frxxmengzhi.perm_shield_max_zhiji=Foundation Shield Max Elixir
+item.frxxmengzhi.perm_shield_max_zhiji.name=Foundation Shield Max Elixir
+item.frxxmengzhi.perm_shield_regen_zhiji=Foundation Shield Regen Elixir
+item.frxxmengzhi.perm_shield_regen_zhiji.name=Foundation Shield Regen Elixir
+item.frxxmengzhi.perm_shield_absorption_zhiji=Foundation Damage Absorption Elixir
+item.frxxmengzhi.perm_shield_absorption_zhiji.name=Foundation Damage Absorption Elixir
+
+# Golden Core (3)
+item.frxxmengzhi.perm_shield_max_jiedan=Golden Core Shield Max Elixir
+item.frxxmengzhi.perm_shield_max_jiedan.name=Golden Core Shield Max Elixir
+item.frxxmengzhi.perm_shield_regen_jiedan=Golden Core Shield Regen Elixir
+item.frxxmengzhi.perm_shield_regen_jiedan.name=Golden Core Shield Regen Elixir
+item.frxxmengzhi.perm_shield_absorption_jiedan=Golden Core Damage Absorption Elixir
+item.frxxmengzhi.perm_shield_absorption_jiedan.name=Golden Core Damage Absorption Elixir
+
+# Nascent Soul (4)
+item.frxxmengzhi.perm_shield_max_yuanying=Nascent Soul Shield Max Elixir
+item.frxxmengzhi.perm_shield_max_yuanying.name=Nascent Soul Shield Max Elixir
+item.frxxmengzhi.perm_shield_regen_yuanying=Nascent Soul Shield Regen Elixir
+item.frxxmengzhi.perm_shield_regen_yuanying.name=Nascent Soul Shield Regen Elixir
+item.frxxmengzhi.perm_shield_absorption_yuanying=Nascent Soul Damage Absorption Elixir
+item.frxxmengzhi.perm_shield_absorption_yuanying.name=Nascent Soul Damage Absorption Elixir
+
+# Spirit Transformation (5)
+item.frxxmengzhi.perm_shield_max_huashen=Spirit Transformation Shield Max Elixir
+item.frxxmengzhi.perm_shield_max_huashen.name=Spirit Transformation Shield Max Elixir
+item.frxxmengzhi.perm_shield_regen_huashen=Spirit Transformation Shield Regen Elixir
+item.frxxmengzhi.perm_shield_regen_huashen.name=Spirit Transformation Shield Regen Elixir
+item.frxxmengzhi.perm_shield_absorption_huashen=Spirit Transformation Damage Absorption Elixir
+item.frxxmengzhi.perm_shield_absorption_huashen.name=Spirit Transformation Damage Absorption Elixir
+
+# ==================== Temporary Elixirs (15) ====================
+
+# Qi Refining (1)
+item.frxxmengzhi.temp_shield_max_lianqi=Qi Refining Shield Max Spirit Elixir
+item.frxxmengzhi.temp_shield_max_lianqi.name=Qi Refining Shield Max Spirit Elixir
+item.frxxmengzhi.temp_shield_regen_lianqi=Qi Refining Shield Regen Spirit Elixir
+item.frxxmengzhi.temp_shield_regen_lianqi.name=Qi Refining Shield Regen Spirit Elixir
+item.frxxmengzhi.temp_shield_absorption_lianqi=Qi Refining Damage Absorption Spirit Elixir
+item.frxxmengzhi.temp_shield_absorption_lianqi.name=Qi Refining Damage Absorption Spirit Elixir
+
+# Foundation Establishment (2)
+item.frxxmengzhi.temp_shield_max_zhiji=Foundation Shield Max Spirit Elixir
+item.frxxmengzhi.temp_shield_max_zhiji.name=Foundation Shield Max Spirit Elixir
+item.frxxmengzhi.temp_shield_regen_zhiji=Foundation Shield Regen Spirit Elixir
+item.frxxmengzhi.temp_shield_regen_zhiji.name=Foundation Shield Regen Spirit Elixir
+item.frxxmengzhi.temp_shield_absorption_zhiji=Foundation Damage Absorption Spirit Elixir
+item.frxxmengzhi.temp_shield_absorption_zhiji.name=Foundation Damage Absorption Spirit Elixir
+
+# Golden Core (3)
+item.frxxmengzhi.temp_shield_max_jiedan=Golden Core Shield Max Spirit Elixir
+item.frxxmengzhi.temp_shield_max_jiedan.name=Golden Core Shield Max Spirit Elixir
+item.frxxmengzhi.temp_shield_regen_jiedan=Golden Core Shield Regen Spirit Elixir
+item.frxxmengzhi.temp_shield_regen_jiedan.name=Golden Core Shield Regen Spirit Elixir
+item.frxxmengzhi.temp_shield_absorption_jiedan=Golden Core Damage Absorption Spirit Elixir
+item.frxxmengzhi.temp_shield_absorption_jiedan.name=Golden Core Damage Absorption Spirit Elixir
+
+# Nascent Soul (4)
+item.frxxmengzhi.temp_shield_max_yuanying=Nascent Soul Shield Max Spirit Elixir
+item.frxxmengzhi.temp_shield_max_yuanying.name=Nascent Soul Shield Max Spirit Elixir
+item.frxxmengzhi.temp_shield_regen_yuanying=Nascent Soul Shield Regen Spirit Elixir
+item.frxxmengzhi.temp_shield_regen_yuanying.name=Nascent Soul Shield Regen Spirit Elixir
+item.frxxmengzhi.temp_shield_absorption_yuanying=Nascent Soul Damage Absorption Spirit Elixir
+item.frxxmengzhi.temp_shield_absorption_yuanying.name=Nascent Soul Damage Absorption Spirit Elixir
+
+# Spirit Transformation (5)
+item.frxxmengzhi.temp_shield_max_huashen=Spirit Transformation Shield Max Spirit Elixir
+item.frxxmengzhi.temp_shield_max_huashen.name=Spirit Transformation Shield Max Spirit Elixir
+item.frxxmengzhi.temp_shield_regen_huashen=Spirit Transformation Shield Regen Spirit Elixir
+item.frxxmengzhi.temp_shield_regen_huashen.name=Spirit Transformation Shield Regen Spirit Elixir
+item.frxxmengzhi.temp_shield_absorption_huashen=Spirit Transformation Damage Absorption Spirit Elixir
+item.frxxmengzhi.temp_shield_absorption_huashen.name=Spirit Transformation Damage Absorption Spirit Elixir
+
+# ==================== Creative Test Tool ====================
+item.frxxmengzhi.attribute_assistant=Attribute Assistant
+item.frxxmengzhi.attribute_assistant.name=Attribute Assistant
+
+# ==================== Tooltips ====================
+
+# Permanent Elixir Common
+tooltip.frxxmengzhi.permanent.desc=Permanently boosts shield attributes, effect is permanent
+tooltip.frxxmengzhi.permanent.tolerance=Each use increases tolerance; higher tolerance reduces future effects
+tooltip.frxxmengzhi.permanent.tolerance_formula=Diminishing formula: Base × (1 - Tolerance / (Tolerance + 100))
+tooltip.frxxmengzhi.permanent.effect=Base Effect: +%d
+
+# Temporary Elixir Common
+tooltip.frxxmengzhi.temporary.desc=Temporary powerful buff, lasts 10 minutes
+tooltip.frxxmengzhi.temporary.cost=Cost: Consumes %d True Yuan per use
+tooltip.frxxmengzhi.temporary.duration=Duration: 600s (10 minutes)
+tooltip.frxxmengzhi.temporary.no_tolerance=No tolerance; fixed effect each use
+tooltip.frxxmengzhi.temporary.effect=Temp Effect: +%d (3x base value)
+
+# Attribute Types
+tooltip.frxxmengzhi.type.shield_max=Shield Max: Permanently increases maximum shield
+tooltip.frxxmengzhi.type.shield_regen=Shield Regen: Permanently increases shield per-second regeneration
+tooltip.frxxmengzhi.type.shield_absorption=Damage Absorption Ratio: 1 shield point = how many damage points (e.g., 2.0 = 1 shield = 2 damage)
+
+# Realm Suffixes
+realm.frxxmengzhi.lianqi=Qi Refining
+realm.frxxmengzhi.zhiji=Foundation Establishment
+realm.frxxmengzhi.jiedan=Golden Core
+realm.frxxmengzhi.yuanying=Nascent Soul
+realm.frxxmengzhi.huashen=Spirit Transformation
+
+# Attribute Assistant
+tooltip.frxxmengzhi.attribute_assistant.usage=Right-click: Open config GUI | Shift+Right-click: Apply config to player
+tooltip.frxxmengzhi.attribute_assistant.fields=Configurable five attributes:
+tooltip.frxxmengzhi.attribute_assistant.field1=Shield Max (base shield capacity)
+tooltip.frxxmengzhi.attribute_assistant.field2=Current Shield (current actual shield value)
+tooltip.frxxmengzhi.attribute_assistant.field3=Shield Regen/sec (per-second auto recovery)
+tooltip.frxxmengzhi.attribute_assistant.field4=Qi to Shield Ratio (Qi consumed per shield point 1:x)
+tooltip.frxxmengzhi.attribute_assistant.field5=Damage Absorption Ratio (1 shield = how many damage, e.g., 2.0 = 1 shield = 2 damage)
+
+# Tolerance System
+tooltip.frxxmengzhi.tolerance.title=[Tolerance System]
+tooltip.frxxmengzhi.tolerance.detail=Permanent elixirs generate tolerance. Each use adds fixed tolerance;\nhigher tolerance reduces future effects of same type (formula-based).\nTolerance cannot be removed; plan usage order carefully.
+
+# Temporary Elixir Warning
+tooltip.frxxmengzhi.temporary.warning=[Cost Warning]\nSpirit Elixirs are powerful (3x base) but consume True Yuan per use.\nCannot use if True Yuan insufficient. True Yuan gained via cultivation,\nbreakthroughs, specific elixirs. Plan True Yuan usage wisely.
+
+# Messages
+msg.frxxmengzhi.elixir.success=Consumed %s, gained permanent attribute +%d
+msg.frxxmengzhi.elixir.tolerance=Current tolerance: %d (next effect will diminish)
+msg.frxxmengzhi.elixir.tolerance_max=Tolerance too high; elixir has no effect, needs purification
+msg.frxxmengzhi.elixir.temp_success=Consumed %s (Temp), gained powerful buff +%d for 10min
+msg.frxxmengzhi.elixir.temp_cost=Consumed True Yuan: %d, Remaining: %d
+msg.frxxmengzhi.elixir.temp_no_zhenyuan=Insufficient True Yuan! Need %d, Current: %d
+msg.frxxmengzhi.assistant.applied=Config applied to player
+msg.frxxmengzhi.assistant.config=Shield Max: %d | Current Shield: %d | Regen: %d | Qi:Shield 1:%d | Absorption: %.2fx
+
+# ==================== Self-Destruct System ====================
+key.frxxmengzhi.selfdestruct_panel=Self-Destruct Panel (V)
+key.frxxmengzhi.selfdestruct_execute=Self-Destruct Execute (G)
+msg.frxxmengzhi.selfdestruct.not_ready=I don't want to die
+msg.frxxmengzhi.selfdestruct.no_mode=Select at least one explosion mode
+msg.frxxmengzhi.selfdestruct.no_realm=You are not a cultivator, cannot self-destruct
+msg.frxxmengzhi.selfdestruct.casting=Self-destruct charging...
+msg.frxxmengzhi.selfdestruct.start=%s is gathering energy, detonating in 3 seconds!
+msg.frxxmengzhi.selfdestruct.detonated=%s self-destructed!
+msg.frxxmengzhi.selfdestruct.interrupted=%s's self-destruct was interrupted
+
+# ==================== Divine Sense Pressure System ====================
+key.frxxmengzhi.shenshi_pressure=Divine Sense Pressure (Z / Sneak+Z for AoE)
+msg.frxxmengzhi.shenshi.no_target=No valid target for divine sense pressure
+msg.frxxmengzhi.shenshi.no_cultivation=Your divine sense is too weak to exert pressure
+msg.frxxmengzhi.shenshi.cast=Divine sense pressure released! Affected %d targets
+msg.frxxmengzhi.shenshi.cooldown=Divine sense pressure cooling down, %d seconds left
+msg.frxxmengzhi.shenshi.backlash=Your divine sense is weaker than theirs; backlash!
+msg.frxxmengzhi.shenshi.scared=%s was scared to death by %s's divine sense pressure!
+
+# ==================== Hand Mining System ====================
+key.frxxmengzhi.hand_mining=Hand Mining (J / Sneak+J All)
+
+# ==================== Spirit Bomb System ====================
+key.frxxmengzhi.spirit_bomb=Spirit Bomb (N Place / Sneak+N Held Item)
+
+# ==================== Spirit Bolt System ====================
+key.frxxmengzhi.spirit_bolt=Spirit Bolt Toggle (Numpad 1)
+key.frxxmengzhi.spirit_bolt_fire=Spirit Bolt Fire (Mouse Right)
+key.frxxmengzhi.projectile_panel=Projectile Panel Damage Toggle (3)
+
+# ==================== Dun Guang Flight System ====================
+key.frxxmengzhi.dunguang_toggle=Dun Guang Flight (H Active / Sneak+H Passive)
+
+# ==================== Tiandao System ====================
+key.frxxmengzhi.tiandao_panel=Tiandao Panel (Numpad .)
+key.frxxmengzhi.repulsion=Repulsion Field (Numpad 8)
+
+# ==================== LingLi Power System ====================
+itemGroup.lingli_power=LingLi Power
+tile.lingli.lingli_Generator_1.name=Tier 1 LingLi Generator
+tile.lingli.lingli_Generator_2.name=Tier 2 LingLi Generator
+tile.lingli.lingli_Generator_3.name=Tier 3 LingLi Generator
+tile.lingli.lingli_Generator_4.name=Tier 4 LingLi Generator
+tile.lingli.lingli_Generator_5.name=Tier 5 LingLi Generator
+tile.lingli.chudianqi_Storage_1.name=Tier 1 Storage Cell
+tile.lingli.chudianqi_Storage_2.name=Tier 2 Storage Cell
+tile.lingli.chudianqi_Storage_3.name=Tier 3 Storage Cell
+tile.lingli.chudianqi_Storage_4.name=Tier 4 Storage Cell
+tile.lingli.chudianqi_Storage_5.name=Tier 5 Storage Cell
+item.lingli.dianchi_Battery_1.name=Tier 1 LingLi Battery
+item.lingli.dianchi_Battery_2.name=Tier 2 LingLi Battery
+item.lingli.dianchi_Battery_3.name=Tier 3 LingLi Battery
+item.lingli.dianchi_Battery_4.name=Tier 4 LingLi Battery
+item.lingli.dianchi_Battery_5.name=Tier 5 LingLi Battery
+
+# ==================== Ling Jie Dimension ====================
+death.attack.lingjie=%s was consumed by the Ling Jie celestial might
+
+# ==================== Travel Device ====================
+item.chuansuoqi.ChuanSuoQi.name=Teleport Shuttle
+chuansuoqi.tip1=While held & flying: flight speed x200
+chuansuoqi.tip2=Immune to 80% of Ling Jie celestial damage

@@ -1,0 +1,45 @@
+package com.frxx.mengzhi.network;
+
+import com.frxx.mengzhi.handler.HandMiningHandler;
+import io.netty.buffer.ByteBuf;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
+import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+public class HandMiningTogglePacket implements IMessage {
+
+    private byte mode;
+
+    public HandMiningTogglePacket() {
+    }
+
+    public HandMiningTogglePacket(byte mode) {
+        this.mode = mode;
+    }
+
+    @Override
+    public void fromBytes(ByteBuf buf) {
+        mode = buf.readByte();
+    }
+
+    @Override
+    public void toBytes(ByteBuf buf) {
+        buf.writeByte(mode);
+    }
+
+    public static class Handler implements IMessageHandler<HandMiningTogglePacket, IMessage> {
+
+        @Override
+        public IMessage onMessage(final HandMiningTogglePacket message, MessageContext ctx) {
+            final EntityPlayerMP player = ctx.getServerHandler().player;
+            player.getServerWorld().addScheduledTask(new Runnable() {
+                @Override
+                public void run() {
+                    HandMiningHandler.toggle(player, message.mode);
+                }
+            });
+            return null;
+        }
+    }
+}

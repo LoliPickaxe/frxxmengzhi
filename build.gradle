@@ -1,0 +1,119 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net/' }
+        maven { url = 'https://repo.spongepowered.org/maven' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:3.+'
+        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'org.spongepowered.mixin'
+apply plugin: 'eclipse'
+
+version = '1.0.0'
+group = 'com.frxx.mengzhi'
+archivesBaseName = 'frxxmengzhi'
+
+sourceCompatibility = targetCompatibility = '1.8'
+
+minecraft {
+    mappings channel: 'snapshot', version: '20171003-1.12'
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+            property 'forge.logging.console.level', 'debug'
+        }
+        server {
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+            property 'forge.logging.console.level', 'debug'
+        }
+    }
+}
+
+repositories {
+    maven { url = 'https://repo.spongepowered.org/maven' }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2860'
+    compile 'org.spongepowered:mixin:0.7.11-SNAPSHOT'
+    compile fileTree(dir: 'libs', include: '*.jar')
+}
+
+mixin {
+    add sourceSets.main, "mixins.frxxmengzhi.refmap.json"
+}
+
+// The cached mixin-0.7.11-SNAPSHOT AP only understands classic SRG format
+// fed via -AreobfSrgFile (not the tsrg options MixinGradle 0.7-SNAPSHOT emits).
+// Convert ForgeGradle's MCP->SRG tsrg (build/createMcpToSrg/output.tsrg) into
+// classic SRG format and pass it to the AP.
+task mixinSrgFromTsrg {
+    dependsOn 'createMcpToSrg'
+    inputs.file("$buildDir/createMcpToSrg/output.tsrg")
+    outputs.file("$buildDir/createMcpToSrg/output.srg")
+    doLast {
+        def tsrg = file("$buildDir/createMcpToSrg/output.tsrg")
+        def out = file("$buildDir/createMcpToSrg/output.srg")
+        def sb = new StringBuilder()
+        String currentLeft = null
+        String currentRight = null
+        tsrg.eachLine('UTF-8') { line ->
+            def trimmed = line.trim()
+            if (!trimmed || trimmed.startsWith('#')) return
+            if (line.startsWith('\t') || line.startsWith(' ')) {
+                if (!currentLeft) return
+                def parts = trimmed.split(' ')
+                if (parts.length == 3 && parts[1].startsWith('(')) {
+                    sb << "MD: ${currentLeft}/${parts[0]} ${parts[1]} ${currentRight}/${parts[2]} ${parts[1]}\n"
+                } else if (parts.length == 2) {
+                    sb << "FD: ${currentLeft}/${parts[0]} ${currentRight}/${parts[1]}\n"
+                }
+            } else {
+                def parts = trimmed.split(' ')
+                if (parts.length >= 2) {
+                    currentLeft = parts[0]
+                    currentRight = parts[1]
+                    sb << "CL: ${currentLeft} ${currentRight}\n"
+                }
+            }
+        }
+        out.text = sb.toString()
+    }
+}
+
+compileJava {
+    dependsOn mixinSrgFromTsrg
+    options.encoding = 'UTF-8'
+    options.compilerArgs += [
+        '-AreobfSrgFile=' + file("$buildDir/createMcpToSrg/output.srg").absolutePath,
+        '-AoutSrgFile=' + file("$buildDir/tmp/compileJava/compileJava-output.srg").absolutePath,
+        '-AdefaultObfuscationEnv=searge'
+    ]
+}
+
+jar {
+    manifest {
+        attributes([
+            "Specification-Title": "frxxmengzhi",
+            "Specification-Vendor": "frxxmengzhi",
+            "Specification-Version": "1",
+            "Implementation-Title": project.name,
+            "Implementation-Version": "${version}",
+            "Implementation-Vendor" :"frxxmengzhi",
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+            "MixinConfigs": "mixins.frxxmengzhi.json"
+        ])
+    }
+}
+
+jar.finalizedBy('reobfJar')
+
+processResources {
+    from(sourceSets.main.resources.srcDirs)
+}

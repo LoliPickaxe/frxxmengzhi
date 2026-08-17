@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "frxxmengzhi:items/temp_shield_regen_yuanying"
+  }
+}

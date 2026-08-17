@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "frxxmengzhi:items/perm_shield_regen_huashen"
+  }
+}

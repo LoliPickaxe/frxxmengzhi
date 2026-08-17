@@ -1,0 +1,216 @@
+# Creative Tab
+itemGroup.frxxmengzhi_elixir=属性丹药
+
+# ==================== 永久属性丹 (15种) ====================
+
+# 练气期 (1)
+item.frxxmengzhi.perm_shield_max_lianqi=练气·护盾上限丹
+item.frxxmengzhi.perm_shield_max_lianqi.name=练气·护盾上限丹
+item.frxxmengzhi.perm_shield_regen_lianqi=练气·护盾回复丹
+item.frxxmengzhi.perm_shield_regen_lianqi.name=练气·护盾回复丹
+item.frxxmengzhi.perm_shield_absorption_lianqi=练气·伤害吸收丹
+item.frxxmengzhi.perm_shield_absorption_lianqi.name=练气·伤害吸收丹
+
+# 筑基期 (2)
+item.frxxmengzhi.perm_shield_max_zhiji=筑基·护盾上限丹
+item.frxxmengzhi.perm_shield_max_zhiji.name=筑基·护盾上限丹
+item.frxxmengzhi.perm_shield_regen_zhiji=筑基·护盾回复丹
+item.frxxmengzhi.perm_shield_regen_zhiji.name=筑基·护盾回复丹
+item.frxxmengzhi.perm_shield_absorption_zhiji=筑基·伤害吸收丹
+item.frxxmengzhi.perm_shield_absorption_zhiji.name=筑基·伤害吸收丹
+
+# 结丹期 (3)
+item.frxxmengzhi.perm_shield_max_jiedan=结丹·护盾上限丹
+item.frxxmengzhi.perm_shield_max_jiedan.name=结丹·护盾上限丹
+item.frxxmengzhi.perm_shield_regen_jiedan=结丹·护盾回复丹
+item.frxxmengzhi.perm_shield_regen_jiedan.name=结丹·护盾回复丹
+item.frxxmengzhi.perm_shield_absorption_jiedan=结丹·伤害吸收丹
+item.frxxmengzhi.perm_shield_absorption_jiedan.name=结丹·伤害吸收丹
+
+# 元婴期 (4)
+item.frxxmengzhi.perm_shield_max_yuanying=元婴·护盾上限丹
+item.frxxmengzhi.perm_shield_max_yuanying.name=元婴·护盾上限丹
+item.frxxmengzhi.perm_shield_regen_yuanying=元婴·护盾回复丹
+item.frxxmengzhi.perm_shield_regen_yuanying.name=元婴·护盾回复丹
+item.frxxmengzhi.perm_shield_absorption_yuanying=元婴·伤害吸收丹
+item.frxxmengzhi.perm_shield_absorption_yuanying.name=元婴·伤害吸收丹
+
+# 化神期 (5)
+item.frxxmengzhi.perm_shield_max_huashen=化神·护盾上限丹
+item.frxxmengzhi.perm_shield_max_huashen.name=化神·护盾上限丹
+item.frxxmengzhi.perm_shield_regen_huashen=化神·护盾回复丹
+item.frxxmengzhi.perm_shield_regen_huashen.name=化神·护盾回复丹
+item.frxxmengzhi.perm_shield_absorption_huashen=化神·伤害吸收丹
+item.frxxmengzhi.perm_shield_absorption_huashen.name=化神·伤害吸收丹
+
+# ==================== 临时属性丹 (15种) ====================
+
+# 练气期 (1)
+item.frxxmengzhi.temp_shield_max_lianqi=练气·护盾上限灵丹
+item.frxxmengzhi.temp_shield_max_lianqi.name=练气·护盾上限灵丹
+item.frxxmengzhi.temp_shield_regen_lianqi=练气·护盾回复灵丹
+item.frxxmengzhi.temp_shield_regen_lianqi.name=练气·护盾回复灵丹
+item.frxxmengzhi.temp_shield_absorption_lianqi=练气·伤害吸收灵丹
+item.frxxmengzhi.temp_shield_absorption_lianqi.name=练气·伤害吸收灵丹
+
+# 筑基期 (2)
+item.frxxmengzhi.temp_shield_max_zhiji=筑基·护盾上限灵丹
+item.frxxmengzhi.temp_shield_max_zhiji.name=筑基·护盾上限灵丹
+item.frxxmengzhi.temp_shield_regen_zhiji=筑基·护盾回复灵丹
+item.frxxmengzhi.temp_shield_regen_zhiji.name=筑基·护盾回复灵丹
+item.frxxmengzhi.temp_shield_absorption_zhiji=筑基·伤害吸收灵丹
+item.frxxmengzhi.temp_shield_absorption_zhiji.name=筑基·伤害吸收灵丹
+
+# 结丹期 (3)
+item.frxxmengzhi.temp_shield_max_jiedan=结丹·护盾上限灵丹
+item.frxxmengzhi.temp_shield_max_jiedan.name=结丹·护盾上限灵丹
+item.frxxmengzhi.temp_shield_regen_jiedan=结丹·护盾回复灵丹
+item.frxxmengzhi.temp_shield_regen_jiedan.name=结丹·护盾回复灵丹
+item.frxxmengzhi.temp_shield_absorption_jiedan=结丹·伤害吸收灵丹
+item.frxxmengzhi.temp_shield_absorption_jiedan.name=结丹·伤害吸收灵丹
+
+# 元婴期 (4)
+item.frxxmengzhi.temp_shield_max_yuanying=元婴·护盾上限灵丹
+item.frxxmengzhi.temp_shield_max_yuanying.name=元婴·护盾上限灵丹
+item.frxxmengzhi.temp_shield_regen_yuanying=元婴·护盾回复灵丹
+item.frxxmengzhi.temp_shield_regen_yuanying.name=元婴·护盾回复灵丹
+item.frxxmengzhi.temp_shield_absorption_yuanying=元婴·伤害吸收灵丹
+item.frxxmengzhi.temp_shield_absorption_yuanying.name=元婴·伤害吸收灵丹
+
+# 化神期 (5)
+item.frxxmengzhi.temp_shield_max_huashen=化神·护盾上限灵丹
+item.frxxmengzhi.temp_shield_max_huashen.name=化神·护盾上限灵丹
+item.frxxmengzhi.temp_shield_regen_huashen=化神·护盾回复灵丹
+item.frxxmengzhi.temp_shield_regen_huashen.name=化神·护盾回复灵丹
+item.frxxmengzhi.temp_shield_absorption_huashen=化神·伤害吸收灵丹
+item.frxxmengzhi.temp_shield_absorption_huashen.name=化神·伤害吸收灵丹
+
+# ==================== 创造模式测试工具 ====================
+item.frxxmengzhi.attribute_assistant=属性小助手
+item.frxxmengzhi.attribute_assistant.name=属性小助手
+
+# ==================== 物品描述/Tooltip ====================
+
+# 永久丹通用
+tooltip.frxxmengzhi.permanent.desc=永久提升护盾属性，效果永久生效
+tooltip.frxxmengzhi.permanent.tolerance=每服用一次增加耐药值，耐药值越高后续效果递减
+tooltip.frxxmengzhi.permanent.tolerance_formula=效果衰减公式: 基础值 × (1 - 耐药值 / (耐药值 + 100))
+tooltip.frxxmengzhi.permanent.effect=基础效果: +%d
+
+# 临时丹通用
+tooltip.frxxmengzhi.temporary.desc=临时强力增益，持续10分钟
+tooltip.frxxmengzhi.temporary.cost=代价: 消耗 %d 真元/次
+tooltip.frxxmengzhi.temporary.duration=持续时间: 600秒 (10分钟)
+tooltip.frxxmengzhi.temporary.no_tolerance=无耐药性，每次效果固定
+tooltip.frxxmengzhi.temporary.effect=临时效果: +%d (3倍基础值)
+
+# 属性类型说明
+tooltip.frxxmengzhi.type.shield_max=护盾上限: 永久增加护盾最大值
+tooltip.frxxmengzhi.type.shield_regen=护盾回复: 永久增加护盾每秒自动回复量
+tooltip.frxxmengzhi.type.shield_absorption=伤害吸收比: 永久提升1点护盾能吸收多少点伤害 (如2.0=1点护盾扛2点伤害)
+
+# 境界后缀
+realm.frxxmengzhi.lianqi=练气期
+realm.frxxmengzhi.zhiji=筑基期
+realm.frxxmengzhi.jiedan=结丹期
+realm.frxxmengzhi.yuanying=元婴期
+realm.frxxmengzhi.huashen=化神期
+
+# 属性小助手
+item.frxxmengzhi.attribute_assistant=属性小助手
+tooltip.frxxmengzhi.attribute_assistant.usage=右键: 打开配置界面 | Shift+右键: 应用配置到玩家
+tooltip.frxxmengzhi.attribute_assistant.fields=可配置五项属性:
+tooltip.frxxmengzhi.attribute_assistant.field1=护盾最大值 (基础护盾上限)
+tooltip.frxxmengzhi.attribute_assistant.field2=当前护盾值 (当前实际护盾值)
+tooltip.frxxmengzhi.attribute_assistant.field3=护盾回复/秒 (每秒自动回复量)
+tooltip.frxxmengzhi.attribute_assistant.field4=灵气转护盾比 (消耗灵气转化为护盾的比率 1:x)
+tooltip.frxxmengzhi.attribute_assistant.field5=伤害吸收比 (1点护盾=多少点伤害，如2.0=1点护盾扛2点伤害)
+
+# 耐药性系统说明
+tooltip.frxxmengzhi.tolerance.title=【耐药性机制】
+tooltip.frxxmengzhi.tolerance.detail=永久属性丹服用后会产生耐药性。每次服用增加固定耐药值，\n耐药值越高，同类丹药的实际效果越低(按公式递减)。\n耐药值不可消除，请谨慎规划服用顺序。
+
+# 临时丹代价提示
+tooltip.frxxmengzhi.temporary.warning=【代价提示】\n临时灵丹效果强力(3倍基础值)，但每次服用消耗真元。\n真元不足时无法服用。真元通过修炼、渡劫、特定丹药获取。\n请合理规划真元使用，避免关键时刻不足。
+
+# 成功/失败消息
+msg.frxxmengzhi.elixir.success=服用%s，获得永久属性 +%d
+msg.frxxmengzhi.elixir.tolerance=当前耐药值: %d (下次效果将递减)
+msg.frxxmengzhi.elixir.tolerance_max=耐药性过高，该丹药已无效果，需净化耐药值
+msg.frxxmengzhi.elixir.temp_success=服用%s(临时)，获得强力增益 +%d，持续10分钟
+msg.frxxmengzhi.elixir.temp_cost=消耗真元: %d，剩余真元: %d
+msg.frxxmengzhi.elixir.temp_no_zhenyuan=真元不足！需要 %d 真元，当前: %d
+msg.frxxmengzhi.assistant.applied=已应用配置到玩家
+msg.frxxmengzhi.assistant.config=护盾最大值: %d | 当前护盾: %d | 护盾回复: %d | 灵气转护盾: 1:%d | 伤害吸收比: %.2fx
+
+# ==================== 自爆系统 ====================
+key.frxxmengzhi.selfdestruct_panel=自爆面板 (V)
+key.frxxmengzhi.selfdestruct_execute=自爆执行 (G)
+msg.frxxmengzhi.selfdestruct.not_ready=我，不想死
+msg.frxxmengzhi.selfdestruct.no_mode=请至少选择一种爆炸方式
+msg.frxxmengzhi.selfdestruct.no_realm=您未修仙不可使用自爆
+msg.frxxmengzhi.selfdestruct.casting=自爆准备中...
+msg.frxxmengzhi.selfdestruct.start=%s 正在积蓄能量，3秒后自爆！
+msg.frxxmengzhi.selfdestruct.detonated=%s 自爆了！
+msg.frxxmengzhi.selfdestruct.interrupted=%s 的自爆被打断了
+
+# ==================== 神识威压系统 ====================
+key.frxxmengzhi.shenshi_pressure=神识威压 (Z / 潜行+Z 范围)
+msg.frxxmengzhi.shenshi.no_target=神识威压未找到可作用的目标
+msg.frxxmengzhi.shenshi.no_cultivation=您的神识尚且弱小，无法施展威压
+msg.frxxmengzhi.shenshi.cast=神识威压已释放，波及 %d 个目标
+msg.frxxmengzhi.shenshi.cooldown=神识威压冷却中，剩余 %d 秒
+msg.frxxmengzhi.shenshi.backlash=您的神识不如对方，遭到反噬！
+msg.frxxmengzhi.shenshi.scared=%s 被 %s 的恐怖神识吓死了！
+
+# ==================== 空手挖矿系统 ====================
+key.frxxmengzhi.hand_mining=空手挖矿 (J / 潜行+J 全开)
+
+# ==================== 灵气炸弹系统 ====================
+key.frxxmengzhi.spirit_bomb=灵气炸弹 (N 布置 / 潜行+N 手持物品)
+
+# ==================== 灵气弹系统 ====================
+key.frxxmengzhi.spirit_bolt=灵气弹开关 (小键盘1)
+key.frxxmengzhi.spirit_bolt_fire=灵气弹发射 (鼠标右键)
+
+# ==================== 投掷物面板伤害系统 ====================
+key.frxxmengzhi.projectile_panel=投掷物面板伤害开关 (3；开启=(物理100%+法术50%)x70%)
+
+# ==================== 灵力操控系统 ====================
+key.frxxmengzhi.caokong_toggle=灵力操控开关 (反斜杠 \ ; 潜行+\ = 尺寸)
+
+# ==================== 遁光飞行系统 ====================
+key.frxxmengzhi.dunguang_toggle=遁光飞行 (H 主动 / 潜行+H 被动护体)
+
+# ==================== 天道系统 ====================
+key.frxxmengzhi.tiandao_panel=天道面板 (小键盘.)
+
+key.frxxmengzhi.repulsion=排斥力场 (小键盘8)
+
+# ==================== 灵力电力系统 ====================
+itemGroup.lingli_power=灵力电力
+tile.lingli.lingli_Generator_1.name=一阶灵力发电机
+tile.lingli.lingli_Generator_2.name=二阶灵力发电机
+tile.lingli.lingli_Generator_3.name=三阶灵力发电机
+tile.lingli.lingli_Generator_4.name=四阶灵力发电机
+tile.lingli.lingli_Generator_5.name=五阶灵力发电机
+tile.lingli.chudianqi_Storage_1.name=一阶储电器
+tile.lingli.chudianqi_Storage_2.name=二阶储电器
+tile.lingli.chudianqi_Storage_3.name=三阶储电器
+tile.lingli.chudianqi_Storage_4.name=四阶储电器
+tile.lingli.chudianqi_Storage_5.name=五阶储电器
+item.lingli.dianchi_Battery_1.name=一阶灵力电池
+item.lingli.dianchi_Battery_2.name=二阶灵力电池
+item.lingli.dianchi_Battery_3.name=三阶灵力电池
+item.lingli.dianchi_Battery_4.name=四阶灵力电池
+item.lingli.dianchi_Battery_5.name=五阶灵力电池
+
+# ==================== 灵界维度 ====================
+death.attack.lingjie=%s 被灵界天威侵蚀而亡
+
+
+
+# ===================== ������ =====================
+item.chuansuoqi.ChuanSuoQi.name=������
+chuansuoqi.tip1=�ֳַ���ʱ�������ٶ� x200
+chuansuoqi.tip2=���� 80% ��������˺�

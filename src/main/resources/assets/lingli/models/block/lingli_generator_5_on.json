@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "lingli:block/lingli_generator_5_on",
+    "all": "lingli:block/lingli_generator_5_on"
+  }
+}
