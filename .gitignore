@@ -22,3 +22,7 @@ Thumbs.db
 
 # 日志
 *.log
+
+# 内部调研/设计文档（勿上传）
+*.md
+!README.md
