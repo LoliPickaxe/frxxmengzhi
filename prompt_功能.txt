@@ -1,8 +1,0 @@
-功能一：境界挖掘等级
-监听 PlayerEvent.BreakSpeed，读取玩家 NBT 的 JingJieNum（境界值）。练气（<1.0）挖掘等级=1 速度=石锄系数；筑基（≥1.0）等级=2 速度=铁锄系数；结丹（≥2.0）等级=4 速度=钻锄系数；元婴（≥5.0）等级=5 速度=金锄系数。修改 player.getDigSpeed 返回值与 harvestLevel。
-
-功能二：击退抗性
-监听 LivingKnockBackEvent。若攻击者为玩家，读取双方 JingJieNum 计算境界差距，伤害高于对方 MaxHealth*0.1 时触发全额击退，否则减免（低境-50%击退）。若攻击者为非玩家生物，伤害高于 MaxHealth*0.15 时全额击退，否则减伤。无视原版击退属性。
-
-功能三：无仇恨
-监听 LivingSetAttackTargetEvent。读取玩家 NBT 的 JingJieNum、防御（FangYuNBT）、攻击（GongJiNBT）、当前血量。若实体 MaxHealth ≤ 玩家 MaxHealth*0.3 且 实体攻击 ≤ 玩家防御*0.5 且 实体血量 < 玩家攻击*3，则 setCanceled(true) 取消仇恨。实体会无视玩家。

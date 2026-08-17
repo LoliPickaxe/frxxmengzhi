@@ -26,3 +26,7 @@ Thumbs.db
 # 内部调研/设计文档（勿上传）
 *.md
 !README.md
+
+# 根目录模板残留/prompt 草稿/无引用资源（勿上传）
+/*.txt
+/*.png

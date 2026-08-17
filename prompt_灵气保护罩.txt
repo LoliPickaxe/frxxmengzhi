@@ -1,7 +1,0 @@
-功能四：灵气保护罩
-
-监听 LivingHurtEvent 和 LivingAttackEvent。玩家 NBT 存储 GuardMax（最大护盾值）、Guard（当前护盾值）、GuardOn（开关）。护盾上限=20*3^(JingJieNum-1)*(1+(LayerNum-1)*0.5)。消耗灵气充能，1点灵气(LingLiNBT)=0.5护盾。保护罩开启且 Guard>0 时：① LivingAttackEvent 一律 setCanceled(true) 阻止任何伤害判定；② LivingHurtEvent 一律 setCanceled(true) 阻止伤害应用，同时免除所有附带效果（击退、着火、中毒、凋零、虚弱等状态）；③ Guard 减去原始伤害值（无视防御减免）。若 Guard ≤ 0 则关闭保护罩，玩家开始正常承受伤害。
-
-自然回复：监听 PlayerTickEvent。记录 CombatTimer（受到伤害后重置为 5 秒）。非战斗状态（CombatTimer≤0）：每 tick 回复 GuardMax*0.2%（每秒 4%），每秒至少 1 点。战斗状态（CombatTimer>0）：每 tick 回复 GuardMax*0.02%（每秒 0.4%），每秒至少 0.1 点。回复不消耗灵气。
-
-自定义按键 X 切换 GuardOn，C 快速充能（LingLi→Guard）。右下角 HUD：护盾条+数字（Guard/GuardMax），颜色随剩余比例变化（绿→黄→红）。
