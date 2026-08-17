@@ -30,3 +30,4 @@ Thumbs.db
 # 根目录模板残留/prompt 草稿/无引用资源（勿上传）
 /*.txt
 /*.png
+/*.py
