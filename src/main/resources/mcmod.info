@@ -2,13 +2,13 @@
 {
   "modid": "frxxmengzhi",
   "name": "FanRenXiuXian MengZhi",
-  "description": "凡人修仙梦制 - 凡人修仙传(1.12.2) 灵界玩法扩展 Mod：灵界境界延伸（炼虚/合体/大乘）、灵界矿石与资源、护盾系统（灵力护盾/元素护盾，X 开关/C 充能）、灵力电力体系等。基于上游 Mod 反编译重建。",
+  "description": "凡人修仙梦制 - 凡人修仙传(1.12.2) 玩法扩展 Mod：灵界矿石与资源、护盾系统（灵力护盾/元素护盾，X 开关/C 充能）、灵力电力体系等。基于上游 Mod 反编译重建。",
   "version": "1.0.0",
   "mcversion": "1.12.2",
   "url": "https://github.com/LoliPickaxe/frxxmengzhi",
   "updateUrl": "",
   "authorList": ["LoliPickaxe"],
-  "credits": "灵感与内容继承自 凡人修仙传(fanrenxiuxian) by 齐古",
+  "credits": "上游内容继承自 凡人修仙传(fanrenxiuxian/yvanchuxiuzhen) by 琳琅在吃火锅呢",
   "logoFile": "assets/frxxmengzhi/textures/logo.png",
   "screenshots": [],
   "dependencies": []
